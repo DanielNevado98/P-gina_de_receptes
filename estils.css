@@ -1,0 +1,20 @@
+.capçalera{
+    background-color: rgb(245, 201, 201);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.capçalera2{
+    display: flex;
+    background-image: url(/Imatges/croquetas.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    justify-content: right;
+    height: 750px
+    
+}   
+
