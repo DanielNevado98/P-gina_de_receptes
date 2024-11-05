@@ -9,12 +9,34 @@
 }
 
 .capçalera2{
-    display: flex;
     background-image: url(/Imatges/croquetas.png);
     background-size:  cover;
     background-repeat: no-repeat;
-    justify-content: right;
-    height: 750px
-    
+    justify-content: left;
+    height: 600px;
+    align-items: center;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: normal;
 }   
+
+.capçalera3 {
+    border-radius: 5px;
+    font-size: smaller;
+}
+.navcapçalera {
+
+    display: flex;
+}
+
+.acapçalera3{
+    padding: 1%;
+}
+
+.article1{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
 
