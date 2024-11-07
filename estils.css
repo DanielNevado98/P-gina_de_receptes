@@ -1,15 +1,32 @@
+
+body{
+    
+}
+
+p{
+    text-align:justify;
+    
+}
+.divmargen{
+    margin: 5%;
+}
 .capçalera{
     background-color: rgb(245, 201, 201);
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+    
+   
+    
 }
-
+.section1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+    margin-right:300px
+}
 .capçalera2{
-    background-image: url(/Imatges/croquetas.png);
+    background-image: url(/Pagina_de_receptes/Imatges/croquetas.png);
     background-size:  cover;
     background-repeat: no-repeat;
     justify-content: left;
@@ -18,6 +35,7 @@
     padding: 50px;
     font-size: 40px;
     font-weight: normal;
+    
 }   
 
 .capçalera3 {
@@ -25,18 +43,29 @@
     font-size: smaller;
 }
 .navcapçalera {
-
+    margin-left: 5%;
     display: flex;
 }
 
-.acapçalera3{
+.capçalera3{
     padding: 1%;
+    
+}
+.capçalera4{
+    border: solid;color: brown; border-radius: 30px;
+    width: 11%;
+    text-align: center;
 }
 
 .article1{
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
     justify-content: center;
+    text-align: justify;
+    
+    
+
 }
 
+.divarticle{
+  
+}
