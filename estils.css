@@ -1,32 +1,31 @@
 
-body{
-    
-}
+
 
 p{
     text-align:justify;
     
 }
-.divmargen{
-    margin: 5%;
-}
+
+
 .capçalera{
-    background-color: rgb(245, 201, 201);
+    background-color:antiquewhite;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    
-   
-    
+}
+
+.margenescapçaleratop{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .section1{
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 300px;
-    margin-right:300px
+    margin-left: 400px;
+    margin-right:400px
 }
 .capçalera2{
-    background-image: url(/Pagina_de_receptes/Imatges/croquetas.png);
+    background-image: url(/Imatges/croquetas.png);
     background-size:  cover;
     background-repeat: no-repeat;
     justify-content: left;
@@ -51,21 +50,145 @@ p{
     padding: 1%;
     
 }
-.capçalera4{
-    border: solid;color: brown; border-radius: 30px;
-    width: 11%;
+
+
+.nevermiss{
+    color: rgb(3, 3, 3); border-radius: 30px;
+    width: 100%;
+    margin-top: 3%;
+   
+    display: flex;
+   
+    background-color:rgba(241, 215, 182, 0.842);
+    
+}
+
+.nevermisstext{
+    margin-left: 3%;
+    margin-top:3%;
+    margin-bottom:3%;
+    
+}
+.nevermissboton{
+    text-align: right;
+    margin-left: 17%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+.seerecipebutton {
+    border: solid;color: brown;border-radius: 30px;
+    width: 20%;
     text-align: center;
 }
 
 .article1{
     display: flex;
     justify-content: center;
-    text-align: justify;
+    text-align: justify;  
+}
+.divmargen{
+    margin-right:50px;
+    justify-content:flex-start;
     
-    
+}
+.divmargenizq{
+    margin-left:50px
+}
+
+.article2{
+    display:flex; 
 
 }
 
-.divarticle{
-  
+
+
+.divmargenizq2{
+    margin-left:180px
+    
+}
+
+
+.divmostpopular{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.divfooter{
+    display: flex;
+    background-color: antiquewhite;
+    
+}
+.divfooter1{
+    background-color:rgba(241, 215, 182, 0.842);
+    display: flex;
+    
+}
+
+.divbotonescap{
+    text-align: left;
+    width: 80%;
+    padding: 1%;
+}
+.divfootermargen{
+    margin: 2%;
+    
+}
+
+.divfootermargen2{
+    margin-left: 65%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.divmargen2{
+  height: 300px;
+  width: 450px;
+
+    
+    
+}
+
+.divfotocontexto1{
+    background-image: url(/Imatges/butterscotchpie.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 450px;
+    margin-top: 25px;
+    
+}
+
+.textofoto1{
+    padding-top: 150px;
+    padding-left: 15px;
+    font-size:150%;
+}
+
+.divfotocontexto2{
+    background-image: url(/Imatges/aguacate.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 450px; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.divfotocontexto3{
+    background-image: url(/Imatges/Zumonaranja.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 450px;
+    margin-top: 25px;
+}
+.divfotocontexto4{
+    background-image: url(/Imatges/summerberry.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
