@@ -13,6 +13,13 @@ p{
     flex-direction:row;
     justify-content: space-between;
 }
+@media screen and (max-width: 700px){
+    .divbotonescap {
+       
+        display: none;
+        
+    }
+}
 
 .margenescapçaleratop{
     margin-left: 2%;
@@ -23,6 +30,15 @@ p{
     margin-bottom: 0px;
     margin-left: 400px;
     margin-right:400px
+}
+
+@media screen and (max-width: 700px){
+    .section1 {
+       
+        width: 100%;
+        
+        
+    }
 }
 .capçalera2{
     background-image: url(/Pagina_de_receptes/Imatges/croquetas.png);
@@ -88,18 +104,48 @@ p{
     justify-content: center;
     text-align: justify;  
 }
+@media screen and (max-width: 700px){
+    .article1 {
+       
+        flex-direction: column;
+        
+    }
+}
+
 .divmargen{
     margin-right:50px;
-    justify-content:flex-start;
+}
+    @media screen and (max-width: 700px){
+        .divmargen {
+           
+            width: 100%;
+            
+    }
+
+    
     
 }
 .divmargenizq{
     margin-left:50px
 }
+@media screen and (max-width: 700px){
+    .section1 {
+       
+        margin-left: auto;
+        
+    }
+}
 
 .article2{
     display:flex; 
 
+}
+@media screen and (max-width: 700px){
+    .divmargen2 {
+       
+        flex-direction: column;
+        
+    }
 }
 
 
@@ -107,6 +153,13 @@ p{
 .divmargenizq2{
     margin-left:180px
     
+}
+@media screen and (max-width: 700px){
+    .divmargenizq2 {
+       
+        flex-direction: column;
+        
+    }
 }
 
 
@@ -121,6 +174,13 @@ p{
     display: flex;
     background-color: antiquewhite;
     
+}
+@media screen and (max-width: 700px){
+    .divfooter {
+       
+        flex-direction: column;
+        
+    }
 }
 .divfooter1{
     background-color:rgba(241, 215, 182, 0.842);
@@ -142,6 +202,15 @@ p{
     margin-left: 65%;
     margin-top: 2%;
     margin-right: 2%;
+}
+
+@media screen and (max-width: 700px){
+    .divfootermargen2 {
+       
+        margin: auto;
+        text-align: left;
+        
+    }
 }
 
 .divmargen2{
@@ -193,6 +262,3 @@ p{
     margin-bottom: 100px;
 }
 
-@media (min-widht:600px){
-    
-}
