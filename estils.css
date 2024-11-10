@@ -25,7 +25,7 @@ p{
     margin-right:400px
 }
 .capçalera2{
-    background-image: url(/Imatges/croquetas.png);
+    background-image: url(/Pagina_de_receptes/Imatges/croquetas.png);
     background-size:  cover;
     background-repeat: no-repeat;
     justify-content: left;
@@ -153,7 +153,7 @@ p{
 }
 
 .divfotocontexto1{
-    background-image: url(/Imatges/butterscotchpie.jpg);
+    background-image: url(/Pagina_de_receptes/Imatges/butterscotchpie.jpg);
     background-size: cover;
     height: 300px;
     width: 450px;
@@ -168,7 +168,7 @@ p{
 }
 
 .divfotocontexto2{
-    background-image: url(/Imatges/aguacate.jpg);
+    background-image: url(/Pagina_de_receptes/Imatges/aguacate.jpg);
     background-size: cover;
     height: 300px;
     width: 450px; 
@@ -178,17 +178,21 @@ p{
 }
 
 .divfotocontexto3{
-    background-image: url(/Imatges/Zumonaranja.jpg);
+    background-image: url(/Pagina_de_receptes/Imatges/Zumonaranja.jpg);
     background-size: cover;
     height: 300px;
     width: 450px;
     margin-top: 25px;
 }
 .divfotocontexto4{
-    background-image: url(/Imatges/summerberry.jpg);
+    background-image: url(/Pagina_de_receptes/Imatges/summerberry.jpg);
     background-size: cover;
     height: 300px;
     width: 450px;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+@media (min-widht:600px){
+    
 }
